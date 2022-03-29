@@ -7,5 +7,6 @@ button.addEventListener('click', async () => {
     console.log(response.data[0].a)
 
     let zenQuote = response.data[0].q
-    textDiv.innerText = `${zenQuote}`
+    let zenAuthor = response.data[0].a
+    textDiv.innerText = `"${zenQuote}" - ${zenAuthor}`
 })
