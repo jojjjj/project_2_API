@@ -27,7 +27,7 @@ p {
     padding: 20px;
     margin: 30px;
     font-size: 14px;
-    font-family: courier new;
+    font-family: 'Nunito', sans-serif;
     max-width: 0 auto;
     cursor: pointer;
 }
@@ -67,6 +67,7 @@ a {
     text-align: center;
     line-height: 3;
     color: white;
+    font-family: 'Nunito', sans-serif;
   }
   
   a:link, a:visited, a:focus {
