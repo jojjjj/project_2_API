@@ -19,7 +19,8 @@ h1 {
 
 #btnQuote {
     border: 0;
-    background: rgba(33, 33, 33, 0.7);
+    background: #141F26;
+    opacity: 70%;
     color: white;
     border-radius: 5px;
     padding: 20px;
@@ -31,7 +32,8 @@ h1 {
 
 #btnToggle {
     border: 0;
-    background: rgba(33, 33, 33, 0.7);
+    background: #141F26;
+    opacity: 70%;
     color: white;
     border-radius: 5px;
     padding: 20px;
@@ -46,8 +48,33 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: black;
+    color: #141F26;
     height: 100vh;
     max-width: 800px;
     margin: 0 auto;
 }
+
+a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 3;
+    color: white;
+  }
+  
+  a:link, a:visited, a:focus {
+    background: #3C4E59;
+  }
+  
+  a:hover {
+    background: #141F26;
+  }
+  
+  a:active {
+    background: #141F26;
+    color: white;
+  }
