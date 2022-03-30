@@ -17,30 +17,32 @@ h1 {
     color: white;
 } */
 
-#btnQuote {
+#btnQuote, #btnToggle {
     border: 0;
     background: #141F26;
     opacity: 70%;
     color: white;
     border-radius: 5px;
     padding: 20px;
-    margin: 50px;
+    margin: 30px;
     font-size: 14px;
     font-family: courier new;
     max-width: 0 auto;
+    cursor: pointer;
 }
 
-#btnToggle {
-    border: 0;
+#btnQuote:link, #btnQuote:visited, #btnQuote:focus, #btnToggle:link, #btnToggle:visited, #btnToggle:focus {
     background: #141F26;
-    opacity: 70%;
+  }
+  
+#btnQuote:hover, #btnToggle:hover {
+    background: #3C4E59;
+  }
+  
+#btnQuote:active, #btnToggle:active {
+    background: #141F26;
     color: white;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 14px;
-    font-family: courier new;
-    max-width: 0 auto
-}
+  }
 
 .light-mode {
     text-align: center;
