@@ -1,19 +1,53 @@
 body {
     text-align: center;
-    background: url(https://i.ibb.co/m9bCVBK/conrad-ziebland-ag-E97zp-Xvo-unsplash.jpg);
+    background-image: url(https://i.ibb.co/m9bCVBK/conrad-ziebland-ag-E97zp-Xvo-unsplash.jpg);
     background-size: cover;
     background-position: center;
     color: white;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 h1 {
-
+    color: white;
 }
 
-p {
+/* p {
+    color: white;
+} */
 
+#btnQuote {
+    border: 0;
+    background: rgba(33, 33, 33, 0.7);
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 50px;
+    font-size: 14px;
+    font-family: courier new;
+    max-width: 0 auto;
 }
 
-.button {
-    
+#btnToggle {
+    border: 0;
+    background: rgba(33, 33, 33, 0.7);
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 14px;
+    font-family: courier new;
+    max-width: 0 auto
+}
+
+.light-mode {
+    text-align: center;
+    background-image: url(https://i.ibb.co/WGmzNBw/yucar-fotografik-cf-R-V1-Qu-EKw-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
 }
