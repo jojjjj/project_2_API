@@ -28,11 +28,11 @@ p {
     color: white;
     border-radius: 5px;
     padding: 20px;
-    /* margin-top: 60px; */
     margin: 60px 20px 30px;
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
-    max-width: 0 auto;
+    max-width: 200px;
+    width: 100%;
     cursor: pointer;
 }
 
